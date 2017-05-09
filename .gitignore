@@ -214,3 +214,5 @@ ModelManifest.xml
 # Exclude settings files (contain database connection data)
 Settings.settings
 Settings.Designer.cs
+
+*.mp3

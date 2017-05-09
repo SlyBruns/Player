@@ -17,7 +17,6 @@ MusicCtrl::MusicCtrl()
 MusicCtrl::~MusicCtrl()
 {
 	// Освобождать битмэпы
-
 	for (int i = 0; i < nButtons; i++)
 		DeleteObject(buttons[i].hBmp);
 

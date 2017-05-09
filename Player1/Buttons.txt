@@ -1,0 +1,174 @@
+[BUTTON1]
+type="BUTTON"
+name="Play"
+iconname="Icon\\play.bmp"
+left=150
+top= 200
+width=33
+height=33
+show=1
+
+[BUTTON2]
+type="BUTTON"
+name="End"
+iconname="Icon\\end.bmp"
+left=183
+top= 200
+width=33
+height=33
+show=1
+
+[BUTTON3]
+type="BUTTON"
+name="Next"
+iconname="Icon\\next.bmp"
+left=216
+top= 200
+width=33
+height=33
+show=1
+
+[BUTTON4]
+type="BUTTON"
+name="Prev"
+iconname="Icon\\prev.bmp"
+left=117
+top= 200
+width=33
+height=33
+show=1
+
+[BUTTON5]
+type="BUTTON"
+name="Repeat"
+iconname="Icon\\repeat.bmp"
+left=141
+top= 233
+width=28
+height=28
+show=1
+
+[BUTTON6]
+type="BUTTON"
+name="Like"
+iconname="Icon\\heart.bmp"
+left=169
+top= 233
+width=28
+height=28
+show=1
+
+[BUTTON7]
+type="BUTTON"
+name="NoLike"
+iconname="Icon\\heart_broken.bmp"
+left=169
+top= 233
+width=28
+height=28
+show=0
+
+[BUTTON8]
+type="BUTTON"
+name="Mix"
+iconname="Icon\\mix.bmp"
+left=197
+top= 233
+width=28
+height=28
+show=1
+
+[BUTTON9]
+type="BUTTON"
+name="Pause"
+iconname="Icon\\pause.bmp"
+left=150
+top= 200
+width=33
+height=33
+show=0
+
+[BUTTON10]
+type="BUTTON"
+name="FullVolume"
+iconname="Icon\\FullVolume.bmp"
+left=67
+top= 300
+width=33
+height=33
+show=1
+
+[BUTTON11]
+type="BUTTON"
+name="Mid_volume"
+iconname="Icon\\mid_volume.bmp"
+left=67
+top= 300
+width=33
+height=33
+show=0
+
+[BUTTON12]
+type="BUTTON"
+name="Low_volume"
+iconname="Icon\\low_volume.bmp"
+left=67
+top= 300
+width=33
+height=33
+show=0
+
+
+[BUTTON13]
+type="BUTTON"
+name="Off_volume"
+iconname="Icon\\off_volume.bmp"
+left=67
+top= 300
+width=33
+height=33
+show=0
+
+[BUTTON14]
+type="BUTTON"
+name="NoMix"
+iconname="Icon\\NoMix.bmp"
+left=197
+top= 233
+width=28
+height=28
+show=0
+
+[BUTTON15]
+type="BUTTON"
+name="NoRepeat"
+iconname="Icon\\NoRepeat.bmp"
+left=141
+top= 233
+width=28
+height=28
+show=0
+
+[TRACKBAR1]
+type="VERT_TRACKBAR"
+name="Volume"
+name="Track"
+left=20
+top= 150
+width=30
+height=150
+show=1
+max=100
+poz=100
+
+[TRACKBAR2]
+type="HORIZ_TRACKBAR"
+left=100
+top= 300
+width=300
+height=33
+show=1
+max=1000
+poz=0
+
+

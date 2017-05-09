@@ -17,6 +17,7 @@ MusicCtrl::MusicCtrl()
 MusicCtrl::~MusicCtrl()
 {
 	// Освобождать битмэпы
+
 	for (int i = 0; i < nButtons; i++)
 		DeleteObject(buttons[i].hBmp);
 
@@ -278,7 +279,7 @@ void MusicCtrl::DoCmd(HWND hBtnWnd)
 
 		if (isPlay == 0)
 		{
-			//mciSendString("open D:\\temp\\music\\test.mp3 alias MP3", NULL, 0, NULL);
+			//mciSendString("open D:\\temp\\music\\test.mp3 alias MP3", NULL, 0, NULL); 
 			HideButton(wPlay);
 			ShowButton(wPause);
 			mciSendString("play MP3", NULL, 0, NULL);
